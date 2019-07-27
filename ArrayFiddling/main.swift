@@ -35,6 +35,9 @@ func printArrayToConsole(arrayToPrint array: [Int]){
     print(output)
 }
 
+print("This demonstrates basics for frequent review of Git")
+print("for branching and merging practice")
+
 rotateArray(tempArray: &array, steps: 3 )
 
 //print(printArrayToString(arrayToPrint:array))
