@@ -27,12 +27,12 @@ func printArrayToString(arrayToPrint x: [Int]) -> String{
 }
 
 func printArrayToConsole(arrayToPrint array: [Int]){
-    var output = "["
+    var outputString = "["
     for index in 0..<array.count{
-        output += "\(array[index]),"
+        outputString += "\(array[index]),"
     }
-    output += "]"
-    print(output)
+    outputString += "]"
+    print(outputString)
 }
 
 print("This demonstrates basics for frequent review of Git")
