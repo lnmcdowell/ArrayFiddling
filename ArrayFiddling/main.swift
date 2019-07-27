@@ -8,7 +8,7 @@
 
 import Foundation
 
-var array = [1,2,3,4,5,6]
+var array = [1,2,8,4,5,6]
 
 func rotateArray(tempArray: inout [Int], steps: Int){
     for _ in 0..<steps{
@@ -40,6 +40,6 @@ print("for branching and merging practice")
 
 rotateArray(tempArray: &array, steps: 3 )
 
-//print(printArrayToString(arrayToPrint:array))
+print(printArrayToString(arrayToPrint:array))
 //more direct method with new function
-printArrayToConsole(arrayToPrint: array)
+//printArrayToConsole(arrayToPrint: array)
