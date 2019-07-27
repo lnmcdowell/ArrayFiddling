@@ -26,6 +26,17 @@ func printArrayToString(arrayToPrint x: [Int]) -> String{
     return out
 }
 
+func printArrayToConsole(arrayToPrint array: [Int]){
+    var output = "["
+    for index in 0..<array.count{
+        output += "\(array[index]),"
+    }
+    output += "]"
+    print(output)
+}
+
 rotateArray(tempArray: &array, steps: 3 )
 
-print(printArrayToString(arrayToPrint:array))
+//print(printArrayToString(arrayToPrint:array))
+//more direct method with new function
+printArrayToConsole(arrayToPrint: array)
